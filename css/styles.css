@@ -1,0 +1,102 @@
+@charset "UTF-8";
+
+html {
+    background-image: url("../images/the-martianjpg.jpg");
+    background-size: cover;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: octin_college;
+    src: url('../Fonts/octin_college_rg.otf') format('opentype');
+}
+
+@font-face {
+    font-family: emilio_19;
+    src: url(../Fonts/Emilio\ 19.ttf) format('truetype');
+}
+
+body {
+    color: rgb(243, 240, 240);
+    margin: 20px;
+    text-align: center;
+    padding: 20px 60% 20px 0;
+}
+
+h1 {
+    font-family: octin_college, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 6em;
+    text-shadow: 1px -1px 4px black;
+    word-spacing: -35px;
+    letter-spacing: 0.08em;
+    margin-bottom: 30px;
+}
+
+h2 {
+    font-family: octin_college, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4em;
+    letter-spacing: .3em;
+    line-height: 1.5;
+    text-shadow: 1px -1px 4px black;
+    margin-bottom: 30px;
+}
+
+.vertical {
+    display: inline-block;
+    writing-mode: vertical-lr;
+    white-space: nowrap;
+    transform: rotate(180deg);
+    font-size: 45px;
+    letter-spacing: 0;
+}
+
+.char {
+    font-family: emilio_19, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    color: rgb(243, 240, 240);
+    margin-bottom: 10px;
+
+}
+
+.casting {
+    font-family: emilio_19, Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: rgb(243, 240, 240);
+    margin-bottom: 20px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    background-color: white;
+    color: grey;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-family: emilio_19, Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+a {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+
+a:hover {
+    background-color: rgb(246, 174, 41);
+}
+
+footer {
+    padding-top: 20px;
+    text-align: center;
+}
+
+footer img {
+    margin-right: 20px;
+    vertical-align: middle;
+}
